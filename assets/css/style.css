@@ -48,3 +48,24 @@ header nav ul li a {
     font-weight: normal;
     font-size: 1.55vw;
 }
+
+.intro {
+    margin: 0 auto 30px auto;
+    background: rgb(189, 130, 245);
+    color: #fce138;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.my-bio img {
+    width: 35%;
+    float: left;
+}
+
+.my-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
