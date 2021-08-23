@@ -14,7 +14,7 @@ body {
 header {
     padding: 20px 35px;
     background-color: rgb(189, 130, 245);
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -59,6 +59,17 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #fce138;
+    border-bottom: 3px solid;
+    float: right;
+  }
+  
+  .primary-border {
+    border-color: #fce138;
+  }
+
 .my-bio img {
     width: 35%;
     float: left;
@@ -69,3 +80,50 @@ header nav ul li a {
     float: left;
     width: 65%;
 }
+
+section {
+    padding: 20px 35px;
+    background-color: rgb(189, 130, 245);
+    display: flexbox;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section ol {
+    font-weight: bold;
+    font-size: 200px;
+    color: #fce138;
+    margin: 0;
+}
+
+.section a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+.section nav {
+    float: right;
+}
+
+.section nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.section nav ul li img {
+    margin: 0 30px;
+    font-weight: normal;
+    font-size: 1.55vw;
+}
+
+.intro {
+    margin: 0 auto 30px auto;
+    background: rgb(189, 130, 245);
+    color: #fce138;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
